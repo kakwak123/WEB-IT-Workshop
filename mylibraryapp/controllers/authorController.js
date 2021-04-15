@@ -1,5 +1,4 @@
 const authors = require('../models/author.js')
-const bp =
 
 const getAllAuthors = (req, res) => {
     res.send(authors)
